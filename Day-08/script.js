@@ -4,8 +4,8 @@ console.log(str1);
 
 let str2 = 
 `Twinkle Twinkle
-Little Star
-How i wonder how you are`;
+       Little Star
+          How i wonder how you are`;
 console.log(str2);            
 
 //Activity - 2
@@ -25,7 +25,7 @@ const {title,author} = book;
 console.log(title);
 console.log(author);
 
-//Activity - 3
+// //Activity - 3
 
 let newArr = [...arr,'f','g','h'];
 console.log(newArr);
@@ -39,7 +39,7 @@ function example(...args){
 let sum = example(1,2,3);
 console.log(sum);
 
-//Activity - 4
+// //Activity - 4
 
 function def(a,b = 1){
     return a * b;
@@ -47,4 +47,4 @@ function def(a,b = 1){
 
 console.log(def(2));
 
-//Activity - 5
+// //Activity - 5

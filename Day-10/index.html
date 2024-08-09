@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">    
+</head>
+<body>
+
+    <div class="w-full h-full flex flex-col gap-5 justify-center items-center bg-pink-500 p-5">
+        <p class="texty bg-yellow-500 p-5">Hello world!!!</p>
+        <button class="btn bg-black text-white p-2 rounded-lg border border-green-500">Translate</button>
+        <img src="https://c4.wallpaperflare.com/wallpaper/974/565/254/windows-11-windows-10-minimalism-hd-wallpaper-thumb.jpg" class="imgi w-30 h-30 cursor-pointer"/>
+        <p class="babita bg-yellow-500 p-5 cursor-pointer">Babitaji</p>    
+        <input type="text" placeholder="press a key" id="key_down"/>
+        <input type="text" placeholder="write something" id="key_up"/>
+        <p class="txt"></p>
+
+        <form class="form flex flex-col gap-5">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"/>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass"/>
+            <label for="options" class="text-white">Country:</label>
+            <select id="options" class="p-2 rounded">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="England">England</option>
+            </select>
+            <p id="selectedValue" class="text-white mt-5"></p> 
+            <button id="sbmt" class="btn bg-black text-white p-2 rounded-lg border border-green-500">Submit</button>
+        </form>
+
+        <ul id="myList">
+            <li class="cursor-pointer">Item 1</li>
+            <li class="cursor-pointer">Item 2</li>
+            <li class="cursor-pointer">Item 3</li>
+        </ul>
+        <p class="li_txt"></p>
+        <div id="parentElement">
+            <ul>
+                <li>Existing Item 1</li>
+                <li>Existing Item 2</li>
+            </ul>
+        </div>
+        <button id="addItemButton" class="bg-black text-white p-2 rounded-lg border border-green-500">Add New Item</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

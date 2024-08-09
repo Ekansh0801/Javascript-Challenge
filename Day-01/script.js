@@ -29,12 +29,13 @@ console.log(typeof obj);
 let x = 1
 console.log("Initial -> ",x);
 
-y = 2;
-console.log("Re-assigned -> ",y);
+x = 2;
+console.log("Re-assigned -> ",x);
 
 //Activity 5 Understanding Const
 const val=true;
 console.log("const inital value ->",val);
 
-val=false;
+val=false;   //error
 console.log("const re-assigned value -> ",val);
+

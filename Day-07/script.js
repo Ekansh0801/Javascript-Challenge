@@ -22,7 +22,7 @@ console.log(obj.getTitleAuthor());
 obj.updateYear(2007);
 console.log(obj);
 
-//Activity - 3
+// //Activity - 3
 const library = {
     name: "City Library",
     books: [
@@ -60,21 +60,23 @@ library.books.forEach(element => {
     console.log(element.title);
 });
 
+// Activity - 5
 
-console.log(library.books[0].getDetails());
-console.log(library.books[1].getDetails());
-console.log(library.books[2].getDetails());
+for(let i = 0; i < library.books.length; i++){
+  console.log(library.books[i].getDetails());
+}
 
 
-library.books.forEach((book, index) => {
-    console.log(`Book ${index + 1}:`);
-    for (let key in book) {
-      if (typeof book[key] !== 'function') { // Skip function properties
-        console.log(`${key}: ${book[key]}`);
-      }
-    }
-    console.log("\n"); // Add a newline for better readability between books
-  });
+
+// library.books.forEach((book, index) => {
+//     console.log(`Book ${index + 1}:`);
+//     for (let key in book) {
+//       if (typeof book[key] !== 'function') { // Skip function properties
+//         console.log(`${key}: ${book[key]}`);
+//       }
+//     }
+//     console.log("\n"); // Add a newline for better readability between books
+//   });
 
   library.books.forEach((book, index) => {
     console.log(`Book ${index + 1}:`);
